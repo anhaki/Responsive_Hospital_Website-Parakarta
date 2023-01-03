@@ -216,6 +216,7 @@
 @media (max-width: 1200px) {
   #VisMis {
     display: block;
+    padding: 30px 20px;
   }
   .subVis {
     margin: 0;
