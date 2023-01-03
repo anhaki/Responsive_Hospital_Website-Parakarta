@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="icon" href="img/rs_logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/Pendaftaran.css" />
+    <link rel="stylesheet" href="css/nav header dan footer.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top" id="navigasi">
+      <div class="container" id="navcon">
+        <img src="img/rs_logo 3.png" alt="" />
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="burgerBut">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto fs-5">
+            <li><a href="index.html" class="nav-link active">Home</a></li>
+            <li><a href="Profil.html" class="nav-link active">Profil</a></li>
+            <li><a href="Pendaftaran.html" class="nav-link active">Pendaftaran</a></li>
+            <li>
+              <div class="drow">
+                <span class="nav-link active" id="NavLayanan">Layanan <img src="icon/arrow_drop_down_FILL0_wght400_GRAD0_opsz48.png" /></span>
+                <ul id="DropLayanan">
+                  <li><a href="Poliklinik.html">Poliklinik</a></li>
+                  <li><a href="Layanan Lain.html">Lainnya</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- ---------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <div id="JudulUtama">
+      <div class="overlay">
+        <h1>Pendaftaran</h1>
+        <p>
+          Dengan lebih dari 100 Dokter Spesialis dan Sub Spesialis yang kompeten, <br />
+          berupaya untuk memberikan pelayanan medis yang tepat untuk setiap kebutuhan kesehatan anda.
+        </p>
+      </div>
+    </div>
+    <!-- ---------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <section id="formDaftar">
+      <h2>Pendaftaran Online</h2>
+      <p class="subJ">Silahkan isi form berikut</p>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inpName" class="form-label">Nama Lengkap</label>
+          <input type="text" class="form-control" id="inpName" />
+        </div>
+        <div class="col-md-6">
+          <label for="inputTel" class="form-label">No Telpon</label>
+          <input type="number" class="form-control" id="inputTel" />
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Alamat</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Jalan Jendral Sudirman" />
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Provinsi</label>
+          <select id="inputState" class="form-select">
+            <option selected>-Pilih Provinsi-</option>
+            <option>Aceh</option>
+            <option>Sumatra Utara</option>
+            <option>Sumatra Barat</option>
+            <option>Riau</option>
+            <option>Kepulauan Riau</option>
+            <option>Jambi</option>
+            <option>Bengkulu</option>
+            <option>Sumatra Selatan</option>
+            <option>Bangka Belitung</option>
+            <option>Lampung</option>
+          </select>
+        </div>
+        <div class="col-md-5">
+          <label for="inputCity" class="form-label">Kota</label>
+          <input type="text" class="form-control" id="inputCity" />
+        </div>
+        <div class="col-md-3">
+          <label for="inputZip" class="form-label">No Rumah</label>
+          <input type="text" class="form-control" id="inputZip" />
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck" />
+            <label class="form-check-label" for="gridCheck"> Saya setuju </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn">Sign in</button>
+        </div>
+      </form>
+    </section>
+    <section id="daftarOff">
+      <h2>Daftar Langsung</h2>
+      <p class="subJ">Anda bisa mendaftar langsung ke rumah sakit</p>
+      <div class="isiOff">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.4853061401395!2d104.7378091146732!3d-2.9627555978421873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b76094fcf39dd%3A0x8b4ee43321ad20a0!2sMDP%20IT%20ELECTRONIC%20SUPERSTORE!5e0!3m2!1sid!2sid!4v1672113377559!5m2!1sid!2sid"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <div class="kananOff">
+          <h3>Proses Mudah dan Cepat</h3>
+          <p>Proses pendaftran dapat menghubungi Email dan No.Telepon yang tertera atau dapat datang langsung ke Rumah Sakit PARAKARTA</p>
+          <div class="conss">E-mail : Parakarta@RS.com<br />Phone : +62 871-9944-9671</div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="kontener">
+        <div class="FooterKiri">
+          <img src="img/rs_logo.png" alt="" />
+          <ul>
+            <li>+62 871-9944-9671</li>
+            <li>Parakarta@RS.com</li>
+            <li>Jalan Jendral Sudirman</li>
+          </ul>
+        </div>
+        <div class="FooterKanan">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Profil.html">Profil</a></li>
+            <li><a href="Pendaftaran.html">Pendaftaran</a></li>
+            <li><a href="Poliklinik.html">Poliklinik</a></li>
+            <li><a href="Layanan Lain.html">Layanan Lainnya</a></li>
+            <li id="sosialss">
+              <a href="https://www.Instagram.com/" target="_blank"><img src="icon/Instagram.svg" alt="" /></a>
+              <a href="https://www.WhatsApp.com/" target="_blank"><img src="icon/WhatsApp.svg" alt="" /></a>
+              <a href="https://www.Twitter.com/" target="_blank"><img src="icon/Twitter.svg" alt="" /></a>
+              <a href="https://www.facebook.com/" target="_blank"><img src="icon/Facebook.svg" alt="" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="kopirek">&copy; Rumah Sakit Parakarta 2022</div>
+    </footer>
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

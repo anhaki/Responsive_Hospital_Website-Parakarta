@@ -1,0 +1,89 @@
+#formDaftar {
+  padding: 60px 70px;
+}
+
+.subJ {
+  text-align: center;
+  margin: 0 0 50px 0;
+  font-size: 19px;
+}
+
+#formDaftar .btn {
+  color: white;
+  background-color: #1bb68e;
+}
+
+#formDaftar #gridCheck:checked {
+  background-color: #1bb68e;
+  border-color: #1bb68e;
+}
+
+#formDaftar input,
+#formDaftar select {
+  border: 2px solid #1bb68e;
+}
+/* ----------------------------------------------------------------------------- */
+#daftarOff {
+  background-color: #0c908f;
+  color: white;
+  padding: 50px 70px 70px;
+}
+.isiOff {
+  display: flex;
+  align-items: center;
+}
+
+.isiOff iframe {
+  width: 200%;
+  height: 450px;
+  border-radius: 5px;
+}
+
+.kananOff {
+  background-color: white;
+  padding: 40px;
+  color: black;
+  border-radius: 10px;
+  margin-left: -50px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 30%);
+}
+
+.conss {
+  background-color: #1bb68e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-size: 17px;
+  color: white;
+  width: 270px;
+  border-radius: 10px;
+}
+/* ----------------------------------------------------------------------------- */
+
+@media (max-width: 1200px) {
+  .isiOff {
+    flex-direction: column-reverse;
+  }
+
+  .isiOff iframe {
+    width: 95%;
+    margin-top: 50px;
+  }
+
+  .isiOff .kananOff {
+    width: 95%;
+    margin-left: 0;
+    padding: 25px;
+  }
+
+  .conss {
+    padding: 15px;
+    width: 240px;
+  }
+
+  html #formDaftar,
+  #daftarOff {
+    padding: 60px 30px;
+  }
+}

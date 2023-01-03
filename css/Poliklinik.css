@@ -1,0 +1,51 @@
+.subJ {
+  text-align: center;
+  margin: 0 0 30px 0;
+  font-size: 19px;
+}
+
+#pengenalan {
+  padding: 60px 70px;
+}
+
+/* ============================================================================================================================= */
+#syarat {
+  background-color: #1bb68e;
+  padding: 60px 70px;
+  color: white;
+}
+
+#syarat li {
+  list-style: decimal;
+}
+
+.dafter {
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0%);
+  border: none;
+  transition: 0.5s;
+  color: white;
+  border: 2px solid white;
+}
+
+.dafter a {
+  color: white;
+}
+
+#syarat .dafter:hover a {
+  color: black;
+}
+
+#syarat .dafter:hover {
+  border: 2px solid black;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  #pengenalan,
+  #syarat {
+    padding: 30px 35px;
+  }
+}

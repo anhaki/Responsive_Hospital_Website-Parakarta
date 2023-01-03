@@ -1,0 +1,404 @@
+.batasJudul {
+  width: 200px;
+  height: 3px;
+  background-color: white;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+#layanan .batasJudul {
+  background-color: black;
+}
+
+/* ================================================================================================================= */
+.Header {
+  width: 100%;
+  height: 760px;
+  background-color: #0c908f;
+  background-image: url(../img/bg.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+  display: flex;
+  justify-content: center;
+}
+/* ================================================================================================================= */
+.jumbotron {
+  width: 80%;
+  height: 550px;
+  margin-top: 140px;
+  background-image: url(../img/hospital-coridor.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 30%);
+}
+
+.jumbotron h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: calc(2rem + 2vw);
+  text-align: start;
+}
+
+.jumbotron .mulai {
+  margin-left: 60px;
+  width: 40vw;
+}
+
+.jumbotron button {
+  width: 120px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #1bb68eff;
+  border: none;
+  transition: 0.3s;
+  color: white;
+}
+
+.jumbotron button a {
+  color: white;
+}
+
+.jumbotron button:hover a {
+  color: black;
+}
+
+.jumbotron button:hover {
+  background-color: rgb(39, 142, 116);
+  border: 2px solid rgb(32, 97, 81);
+  color: white;
+}
+
+.jumbotron button:active {
+  background-color: rgba(0, 0, 0, 0%);
+  color: black;
+  border: 2px solid black;
+}
+/* ================================================================================================================= */
+.whyUS {
+  background-color: #0c908f;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.whyUS h2 {
+  color: white;
+}
+
+.kartu {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  justify-content: space-around;
+}
+
+.kartu li {
+  padding: 10px;
+  transition: 0.3s;
+  background-color: white;
+  margin: 20px 20px;
+  border-radius: 15px;
+  position: relative;
+  top: 0;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 30%);
+  display: flex;
+  align-items: center;
+}
+
+.frame {
+  margin: auto;
+  padding: 40px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #1bb68e;
+  border-radius: 12px;
+}
+
+.kartu li p {
+  margin: 0;
+}
+
+.kartu li:hover {
+  background-color: #1bb68eff;
+  color: white;
+  scale: 105%;
+  top: -20px;
+  box-shadow: 0px 40px 15px -25px rgba(0, 0, 0, 15%);
+}
+
+.kartu li img {
+  transition: 0.3s;
+}
+
+.kartu li:hover img {
+  filter: invert();
+}
+
+.kartu li:hover .frame {
+  border: 2px solid white;
+}
+
+/* ================================================================================================================= */
+#layanan {
+  background-color: #0c908f;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-color: white;
+  margin-top: -8vw;
+  padding: 0 30px;
+}
+
+#layanan ul {
+  padding: 0;
+}
+
+#layanan ul li {
+  display: flex;
+  width: 97%;
+  margin: 20px auto;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 30%);
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: #1bb68e;
+  color: white;
+  align-items: center;
+}
+
+#layanan ul li:nth-child(even) {
+  background-color: #0c908f;
+}
+
+#layanan ul li img {
+  width: auto;
+  height: 80px;
+  margin-right: 20px;
+  filter: invert();
+}
+
+#layanan p {
+  margin: 0;
+}
+
+#layanan form {
+  text-align: center;
+  margin-top: 40px;
+}
+#layanan form button {
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #1bb68e;
+  border: none;
+  transition: 0.3s;
+  color: white;
+  margin: auto 10px;
+}
+
+#layanan form button:hover {
+  background-color: rgb(39, 142, 116);
+  border: 2px solid rgb(32, 97, 81);
+}
+
+#layanan form button:active {
+  background-color: rgba(0, 0, 0, 0%);
+  color: black;
+  border: 2px solid black;
+}
+
+#layanan form .plk {
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+}
+
+/* ================================================================================================================= */
+#profil {
+  width: 100%;
+  background-color: #1bb68e;
+  background-image: url(../img/bg\ 2.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+  color: white;
+  margin-top: -4vw;
+  background-color: #1bb68e;
+  padding-bottom: 100px;
+}
+
+.Baris {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  width: 90%;
+}
+
+.gambarSatu {
+  width: 90%;
+  justify-self: end;
+  border-radius: 20px;
+}
+.gambarDua {
+  width: 90%;
+  justify-self: start;
+  border-radius: 20px;
+}
+
+.DskKami {
+  width: 70%;
+  justify-self: center;
+}
+
+.selengkapnye {
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0%);
+  border: none;
+  transition: 0.5s;
+  color: white;
+  border: 2px solid white;
+}
+
+.selengkapnye a {
+  color: white;
+}
+
+#profil .selengkapnye:hover a {
+  color: black;
+}
+
+#profil .selengkapnye:hover {
+  border: 2px solid black;
+  color: black;
+}
+
+#profil .bKedua {
+  margin-top: 70px;
+  /* background-color: #0c908f; */
+}
+/* ================================================================================================================= */
+.prof {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin: auto;
+  position: absolute;
+  left: 143px;
+  top: -50px;
+  border: 2px solid #0c908f;
+}
+#bungkus {
+  margin-top: 100px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  justify-items: center;
+  align-items: center;
+  /* background-color: #1bb68e; */
+}
+
+.sub-test:hover {
+  scale: 105%;
+}
+
+.sub-test {
+  width: 380px;
+  border: 3px solid #ffffff;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  text-align: center;
+  position: relative;
+  transition: 0.5s;
+}
+/* ================================================================================================================= */
+@media (max-width: 1400px) {
+  .kartu {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+
+  #profil #bungkus {
+    padding: 0 40px;
+  }
+  #profil #bungkus .sub-test {
+    margin-top: 60px;
+  }
+  html body #profil {
+    background-size: 110%;
+  }
+
+  .Baris {
+    display: block;
+  }
+
+  .DskKami {
+    width: 100%;
+  }
+
+  .Baris img {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .kartu {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #profil #bungkus {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  #profil #bungkus .sub-test {
+    width: 97%;
+    margin-top: 60px;
+  }
+  #profil #bungkus .sub-test .prof {
+    left: 0;
+    right: 0;
+  }
+  nav {
+    background-color: white;
+  }
+}
+
+@media (max-width: 768px) {
+  #layanan form button {
+    margin-top: 20px;
+  }
+
+  .kartu {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  .jumbotron {
+    height: 250px;
+  }
+
+  .jumbotron p {
+    display: none;
+  }
+
+  .Header {
+    height: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  #layanan ul li img {
+    display: none;
+  }
+}

@@ -1,0 +1,280 @@
+/* =============================================================================================================================================================== */
+.sejarahnya {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sejarahnya h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.subJ {
+  text-align: center;
+  margin: 0;
+  font-size: 19px;
+}
+.subJ2 {
+  margin: 0;
+  color: white;
+  font-size: 19px;
+  /* margin-top: 20px; */
+}
+
+.isicerita {
+  text-indent: 25px;
+  margin: auto;
+  width: 90%;
+  display: flex;
+  gap: 30px;
+}
+
+#VisMis {
+  padding: 70px 40px;
+  display: flex;
+  align-items: center;
+  background-color: #1bb68e;
+}
+
+#VisMis img {
+  width: 45vw;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.subVis {
+  background-color: white;
+  width: 50vw;
+  padding: 40px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-right: -50px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 30%);
+}
+
+.subVis p {
+  text-indent: 25px;
+}
+.misi {
+  margin-top: 50px;
+}
+.visMain {
+  z-index: 10;
+  margin-top: 40px;
+}
+
+/* =============================================================================================================================================================== */
+#kelebihan {
+  background-color: #1bb68e;
+  padding-top: 50px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.swipeBks:hover .swipe {
+  top: 0px;
+}
+.swipeBks {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+  margin: 30px 0;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 30%);
+}
+
+.swipe {
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  background-color: rgb(12, 146, 146, 80%);
+  top: 410px;
+  color: white;
+  transition: 0.8s;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.swipe h3 {
+  margin-bottom: 20px;
+}
+
+.swep1 {
+  background-image: url(../img/Kelebihan-1.webp);
+}
+.swep2 {
+  background-image: url(../img/Kelebihan-2.webp);
+}
+.swep3 {
+  background-image: url(../img/Kelebihan-3.webp);
+}
+/* =============================================================================================================================================================== */
+#dokters {
+  padding: 60px 0 0 0;
+}
+
+#dokters h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dokBung {
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.KarDok {
+  text-indent: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: #0c908f;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 0 0 80px 0;
+}
+
+.profDok {
+  width: 60%;
+  border-radius: 50%;
+  border: 10px solid white;
+  margin-bottom: 10px;
+}
+
+.sosialss {
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+  filter: invert(100%);
+}
+
+.sosialss a img {
+  width: 30px;
+  display: block;
+  margin: auto;
+}
+
+.frame {
+  width: 350px;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid white;
+  padding: 40px;
+}
+/* =============================================================================================================================================================== */
+.keren {
+  display: flex;
+  background-color: #1bb68e;
+  width: 100%;
+  color: white;
+}
+
+.subKeren {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 40px 20px;
+  transition: 0.5s;
+  gap: 25px;
+}
+
+.subKeren:hover {
+  background-color: #0c908f;
+}
+
+.subKeren p {
+  margin: 0;
+}
+
+.subKeren img {
+  width: 50px;
+  height: 50px;
+  filter: invert(100%);
+}
+/* =============================================================================================================================================================== */
+
+@media (max-width: 1200px) {
+  #VisMis {
+    display: block;
+  }
+  .subVis {
+    margin: 0;
+    width: 100%;
+  }
+  #VisMis img {
+    display: none;
+  }
+
+  .sejarahnya {
+    display: inline-block;
+    padding: 30px 0;
+    height: auto;
+  }
+  .isicerita {
+    display: block;
+  }
+
+  #kelebihan .swipeBks,
+  .swipeBks .swipe {
+    width: 90%;
+    height: 300px;
+  }
+  .swipeBks .swipe {
+    width: 100%;
+    height: 300px;
+    top: 210px;
+  }
+
+  .dokBung {
+    padding: 0 30px;
+  }
+
+  .KarDok {
+    flex-direction: column;
+  }
+
+  .frame {
+    width: 300px;
+    height: 300px;
+  }
+
+  .frame p {
+    margin-bottom: 5px;
+  }
+
+  .sosialss {
+    width: 130px;
+  }
+
+  .sosialss a img {
+    width: 25px;
+  }
+
+  .keren {
+    flex-direction: column;
+  }
+
+  .subKeren {
+    width: 100%;
+  }
+}

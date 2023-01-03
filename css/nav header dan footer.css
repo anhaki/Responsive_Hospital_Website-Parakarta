@@ -1,0 +1,259 @@
+@font-face {
+  font-family: Segoe;
+  src: url(../Font/Segoe\ UI.ttf) format("truetype");
+}
+
+* {
+  margin: 0;
+}
+
+.batasJudul {
+  width: 100px;
+  height: 3px;
+  background-color: white;
+}
+
+li {
+  list-style: none;
+}
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 60px;
+}
+
+h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 40px;
+}
+h4 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 30px;
+}
+
+a {
+  transition: 0.3s;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  scale: 110%;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+html body {
+  font-family: Segoe;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+#navigasi {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 0;
+  transition: 0.8s;
+  z-index: 100;
+}
+
+#navcon {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 18px;
+  padding: 0;
+}
+
+#navbarNavAltMarkup a {
+  transition: 0.4s;
+}
+
+#navigasi .container img {
+  width: 250px;
+  /* margin: 20px 0; */
+}
+
+html body nav a {
+  margin: 0 20px;
+}
+
+#NavLayanan {
+  margin: 0 20px;
+}
+
+#navbarNav .drow img {
+  width: 20px;
+  position: relative;
+  top: -2px;
+}
+
+.lengket {
+  background-color: white;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 10%);
+}
+
+.bgPutih {
+  background-color: white;
+}
+
+.drow {
+  position: relative;
+  cursor: default;
+}
+
+.drow:hover #DropLayanan {
+  height: 120px;
+}
+
+#DropLayanan {
+  height: 0;
+  z-index: -999;
+  width: 150px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 0;
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  text-align: center;
+  transition: 0.4s;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 10%);
+  margin-bottom: 0;
+}
+#DropLayanan li a {
+  color: rgb(0, 0, 0);
+}
+#DropLayanan li {
+  box-sizing: border-box;
+  padding: 15px 0;
+  transition: 0.5s;
+}
+
+#DropLayanan li:hover {
+  background-color: #0c908f;
+  cursor: pointer;
+}
+
+#DropLayanan li:hover a {
+  color: white;
+}
+
+#DropLayanan:hover {
+  height: 110px;
+}
+
+@media (max-width: 992px) {
+  #navigasi .drow #DropLayanan {
+    left: -15px;
+  }
+}
+/* =============================================================================================================================================================== */
+
+#JudulUtama {
+  background-image: url(../img/stetoskop.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 107.65px;
+}
+
+.overlay {
+  background-color: rgb(12, 146, 146, 70%);
+  padding: 40px 30px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+/* =============================================================================================================================== */
+footer .kontener {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 60px 0;
+  font-size: 18px;
+  font-family: Segoe;
+}
+
+footer {
+  box-shadow: 0px -3px 10px rgba(0, 0, 0, 10%);
+}
+
+footer a:hover {
+  color: black;
+  scale: 110%;
+}
+
+footer a {
+  transition: 0.3s;
+}
+
+footer img {
+  width: 100px;
+}
+.panach {
+  width: 20px;
+}
+
+footer ul {
+  padding: 0;
+}
+footer ul li {
+  margin: 10px 0;
+}
+
+.kopirek {
+  height: 70px;
+  background-color: #0c908f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+footer .FooterKiri ul {
+  margin-top: 30px;
+}
+
+#sosialss {
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+}
+
+#sosialss a img {
+  width: 30px;
+}
+
+@media (max-width: 500px) {
+  footer .kontener {
+    display: block;
+    padding: 10px 0;
+  }
+
+  footer .FooterKiri {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  footer .FooterKanan {
+    display: none;
+  }
+}
