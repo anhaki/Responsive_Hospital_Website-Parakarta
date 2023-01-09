@@ -301,7 +301,7 @@
   margin-top: 100px;
   display: grid;
   gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
   justify-items: center;
   align-items: center;
   /* background-color: #1bb68e; */
@@ -326,29 +326,21 @@
 /* ================================================================================================================= */
 @media (max-width: 1400px) {
   .kartu {
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   }
 
   #profil #bungkus {
     padding: 0 40px;
   }
+
   #profil #bungkus .sub-test {
     margin-top: 60px;
   }
   html body #profil {
     background-size: 110%;
   }
-
-  .Baris {
-    display: block;
-  }
-
   .DskKami {
     width: 100%;
-  }
-
-  .Baris img {
-    display: none;
   }
 }
 @media (max-width: 1200px) {
@@ -394,6 +386,13 @@
 
   .Header {
     height: 500px;
+  }
+  .Baris {
+    display: block;
+  }
+
+  .Baris img {
+    display: none;
   }
 }
 
